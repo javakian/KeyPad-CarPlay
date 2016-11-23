@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24CCF4F1DE612AF006B5C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24CCF4E1DE612AF006B5C69 /* AppDelegate.swift */; };
+		D24CCF511DE612AF006B5C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24CCF501DE612AF006B5C69 /* ViewController.swift */; };
+		D24CCF541DE612AF006B5C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24CCF521DE612AF006B5C69 /* Main.storyboard */; };
+		D24CCF571DE612AF006B5C69 /* KeyPadLock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D24CCF551DE612AF006B5C69 /* KeyPadLock.xcdatamodeld */; };
+		D24CCF591DE612AF006B5C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24CCF581DE612AF006B5C69 /* Assets.xcassets */; };
+		D24CCF5C1DE612AF006B5C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24CCF5A1DE612AF006B5C69 /* LaunchScreen.storyboard */; };
+		D24CCF671DE612AF006B5C69 /* KeyPadLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24CCF661DE612AF006B5C69 /* KeyPadLockTests.swift */; };
+		D24CCF721DE612AF006B5C69 /* KeyPadLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24CCF711DE612AF006B5C69 /* KeyPadLockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24CCF631DE612AF006B5C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24CCF431DE612AF006B5C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24CCF4A1DE612AF006B5C69;
+			remoteInfo = KeyPadLock;
+		};
+		D24CCF6E1DE612AF006B5C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24CCF431DE612AF006B5C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24CCF4A1DE612AF006B5C69;
+			remoteInfo = KeyPadLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24CCF4B1DE612AF006B5C69 /* KeyPadLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyPadLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24CCF4E1DE612AF006B5C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24CCF501DE612AF006B5C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24CCF531DE612AF006B5C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24CCF561DE612AF006B5C69 /* KeyPadLock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyPadLock.xcdatamodel; sourceTree = "<group>"; };
+		D24CCF581DE612AF006B5C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D24CCF5B1DE612AF006B5C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D24CCF5D1DE612AF006B5C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24CCF621DE612AF006B5C69 /* KeyPadLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyPadLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24CCF661DE612AF006B5C69 /* KeyPadLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadLockTests.swift; sourceTree = "<group>"; };
+		D24CCF681DE612AF006B5C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24CCF6D1DE612AF006B5C69 /* KeyPadLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyPadLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24CCF711DE612AF006B5C69 /* KeyPadLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadLockUITests.swift; sourceTree = "<group>"; };
+		D24CCF731DE612AF006B5C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24CCF481DE612AF006B5C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24CCF5F1DE612AF006B5C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24CCF6A1DE612AF006B5C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24CCF421DE612AF006B5C69 = {
+			isa = PBXGroup;
+			children = (
+				D24CCF4D1DE612AF006B5C69 /* KeyPadLock */,
+				D24CCF651DE612AF006B5C69 /* KeyPadLockTests */,
+				D24CCF701DE612AF006B5C69 /* KeyPadLockUITests */,
+				D24CCF4C1DE612AF006B5C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24CCF4C1DE612AF006B5C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24CCF4B1DE612AF006B5C69 /* KeyPadLock.app */,
+				D24CCF621DE612AF006B5C69 /* KeyPadLockTests.xctest */,
+				D24CCF6D1DE612AF006B5C69 /* KeyPadLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24CCF4D1DE612AF006B5C69 /* KeyPadLock */ = {
+			isa = PBXGroup;
+			children = (
+				D24CCF4E1DE612AF006B5C69 /* AppDelegate.swift */,
+				D24CCF501DE612AF006B5C69 /* ViewController.swift */,
+				D24CCF521DE612AF006B5C69 /* Main.storyboard */,
+				D24CCF581DE612AF006B5C69 /* Assets.xcassets */,
+				D24CCF5A1DE612AF006B5C69 /* LaunchScreen.storyboard */,
+				D24CCF5D1DE612AF006B5C69 /* Info.plist */,
+				D24CCF551DE612AF006B5C69 /* KeyPadLock.xcdatamodeld */,
+			);
+			path = KeyPadLock;
+			sourceTree = "<group>";
+		};
+		D24CCF651DE612AF006B5C69 /* KeyPadLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24CCF661DE612AF006B5C69 /* KeyPadLockTests.swift */,
+				D24CCF681DE612AF006B5C69 /* Info.plist */,
+			);
+			path = KeyPadLockTests;
+			sourceTree = "<group>";
+		};
+		D24CCF701DE612AF006B5C69 /* KeyPadLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24CCF711DE612AF006B5C69 /* KeyPadLockUITests.swift */,
+				D24CCF731DE612AF006B5C69 /* Info.plist */,
+			);
+			path = KeyPadLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24CCF4A1DE612AF006B5C69 /* KeyPadLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24CCF761DE612AF006B5C69 /* Build configuration list for PBXNativeTarget "KeyPadLock" */;
+			buildPhases = (
+				D24CCF471DE612AF006B5C69 /* Sources */,
+				D24CCF481DE612AF006B5C69 /* Frameworks */,
+				D24CCF491DE612AF006B5C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyPadLock;
+			productName = KeyPadLock;
+			productReference = D24CCF4B1DE612AF006B5C69 /* KeyPadLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24CCF611DE612AF006B5C69 /* KeyPadLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24CCF791DE612AF006B5C69 /* Build configuration list for PBXNativeTarget "KeyPadLockTests" */;
+			buildPhases = (
+				D24CCF5E1DE612AF006B5C69 /* Sources */,
+				D24CCF5F1DE612AF006B5C69 /* Frameworks */,
+				D24CCF601DE612AF006B5C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24CCF641DE612AF006B5C69 /* PBXTargetDependency */,
+			);
+			name = KeyPadLockTests;
+			productName = KeyPadLockTests;
+			productReference = D24CCF621DE612AF006B5C69 /* KeyPadLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24CCF6C1DE612AF006B5C69 /* KeyPadLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24CCF7C1DE612AF006B5C69 /* Build configuration list for PBXNativeTarget "KeyPadLockUITests" */;
+			buildPhases = (
+				D24CCF691DE612AF006B5C69 /* Sources */,
+				D24CCF6A1DE612AF006B5C69 /* Frameworks */,
+				D24CCF6B1DE612AF006B5C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24CCF6F1DE612AF006B5C69 /* PBXTargetDependency */,
+			);
+			name = KeyPadLockUITests;
+			productName = KeyPadLockUITests;
+			productReference = D24CCF6D1DE612AF006B5C69 /* KeyPadLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24CCF431DE612AF006B5C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "James Avakian";
+				TargetAttributes = {
+					D24CCF4A1DE612AF006B5C69 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RKA6W6P3FD;
+						ProvisioningStyle = Automatic;
+					};
+					D24CCF611DE612AF006B5C69 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RKA6W6P3FD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24CCF4A1DE612AF006B5C69;
+					};
+					D24CCF6C1DE612AF006B5C69 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RKA6W6P3FD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24CCF4A1DE612AF006B5C69;
+					};
+				};
+			};
+			buildConfigurationList = D24CCF461DE612AF006B5C69 /* Build configuration list for PBXProject "KeyPadLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24CCF421DE612AF006B5C69;
+			productRefGroup = D24CCF4C1DE612AF006B5C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24CCF4A1DE612AF006B5C69 /* KeyPadLock */,
+				D24CCF611DE612AF006B5C69 /* KeyPadLockTests */,
+				D24CCF6C1DE612AF006B5C69 /* KeyPadLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24CCF491DE612AF006B5C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24CCF5C1DE612AF006B5C69 /* LaunchScreen.storyboard in Resources */,
+				D24CCF591DE612AF006B5C69 /* Assets.xcassets in Resources */,
+				D24CCF541DE612AF006B5C69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24CCF601DE612AF006B5C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24CCF6B1DE612AF006B5C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24CCF471DE612AF006B5C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24CCF511DE612AF006B5C69 /* ViewController.swift in Sources */,
+				D24CCF571DE612AF006B5C69 /* KeyPadLock.xcdatamodeld in Sources */,
+				D24CCF4F1DE612AF006B5C69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24CCF5E1DE612AF006B5C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24CCF671DE612AF006B5C69 /* KeyPadLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24CCF691DE612AF006B5C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24CCF721DE612AF006B5C69 /* KeyPadLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24CCF641DE612AF006B5C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24CCF4A1DE612AF006B5C69 /* KeyPadLock */;
+			targetProxy = D24CCF631DE612AF006B5C69 /* PBXContainerItemProxy */;
+		};
+		D24CCF6F1DE612AF006B5C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24CCF4A1DE612AF006B5C69 /* KeyPadLock */;
+			targetProxy = D24CCF6E1DE612AF006B5C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24CCF521DE612AF006B5C69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24CCF531DE612AF006B5C69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24CCF5A1DE612AF006B5C69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24CCF5B1DE612AF006B5C69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24CCF741DE612AF006B5C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D24CCF751DE612AF006B5C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24CCF771DE612AF006B5C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RKA6W6P3FD;
+				INFOPLIST_FILE = KeyPadLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coml.oa.KeyPadLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D24CCF781DE612AF006B5C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RKA6W6P3FD;
+				INFOPLIST_FILE = KeyPadLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coml.oa.KeyPadLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D24CCF7A1DE612AF006B5C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RKA6W6P3FD;
+				INFOPLIST_FILE = KeyPadLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coml.oa.KeyPadLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyPadLock.app/KeyPadLock";
+			};
+			name = Debug;
+		};
+		D24CCF7B1DE612AF006B5C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RKA6W6P3FD;
+				INFOPLIST_FILE = KeyPadLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coml.oa.KeyPadLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyPadLock.app/KeyPadLock";
+			};
+			name = Release;
+		};
+		D24CCF7D1DE612AF006B5C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RKA6W6P3FD;
+				INFOPLIST_FILE = KeyPadLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coml.oa.KeyPadLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KeyPadLock;
+			};
+			name = Debug;
+		};
+		D24CCF7E1DE612AF006B5C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RKA6W6P3FD;
+				INFOPLIST_FILE = KeyPadLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coml.oa.KeyPadLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KeyPadLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24CCF461DE612AF006B5C69 /* Build configuration list for PBXProject "KeyPadLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24CCF741DE612AF006B5C69 /* Debug */,
+				D24CCF751DE612AF006B5C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24CCF761DE612AF006B5C69 /* Build configuration list for PBXNativeTarget "KeyPadLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24CCF771DE612AF006B5C69 /* Debug */,
+				D24CCF781DE612AF006B5C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24CCF791DE612AF006B5C69 /* Build configuration list for PBXNativeTarget "KeyPadLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24CCF7A1DE612AF006B5C69 /* Debug */,
+				D24CCF7B1DE612AF006B5C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24CCF7C1DE612AF006B5C69 /* Build configuration list for PBXNativeTarget "KeyPadLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24CCF7D1DE612AF006B5C69 /* Debug */,
+				D24CCF7E1DE612AF006B5C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D24CCF551DE612AF006B5C69 /* KeyPadLock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D24CCF561DE612AF006B5C69 /* KeyPadLock.xcdatamodel */,
+			);
+			currentVersion = D24CCF561DE612AF006B5C69 /* KeyPadLock.xcdatamodel */;
+			path = KeyPadLock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D24CCF431DE612AF006B5C69 /* Project object */;
+}
